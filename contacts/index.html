@@ -50,6 +50,43 @@
 
     <main class="contacts-content">
 
+
+        <section class="main4-sections" id="download">
+            <div class="container-signup-context">
+                <h2 class="signup-heading-context">
+                    Contact Us
+                </h2>
+                <div class="signup-content-context">
+                    <div class="signup-image-context">
+                        <img src="/img/contact.jpg" alt="Sign Up">
+                    </div>
+                    <div class="signup-form-wrapper-context">
+                        <form id="signup-form-context" method="post" action="/thanks_form.php" class="signup-form-context">
+                            <label for="name" class="form-label-context">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-input-context" placeholder="Enter your full name" required="">
+                            
+                            <label for="email" class="form-label-context">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input-context" placeholder="Enter your email address" required="">
+                            
+                            <label for="message" class="form-label-context">Message</label>
+                                         <textarea id="message" name="message" class="form-input-context" placeholder="Enter your message" rows="4"></textarea>
+                            <div class="form-group privacy-check" >
+                                <input type="checkbox" required="" name="privacypolicy" id="Privacy">
+                                <label for="Privacy">
+                                    I agree to the
+                                    <a href="/privacy-policy/" class="privacy-link">Privacy Policy</a>
+                                </label>
+                            </div>
+                            <button type="submit" class="form-button-context">
+                                Get Started
+                            </button>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer">
@@ -64,7 +101,7 @@
             </div>
             <div class="gam" >
                 <div class="cirle" >18+</div>
-                <a href="https://www.gamcare.org.uk/"><img class="img18" src="/img/ga-care.png" alt="img" ></a>
+                <a href="https://www.gamcare.org.uk/" target="_blank"><img class="img18" src="/img/ga-care.png" alt="img" ></a>
             </div>
         </div>
         <p class="warn-18">This game is for 18+ players only. Play responsibly.</p>

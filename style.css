@@ -1293,6 +1293,167 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
 
 
 
+.main4-sections {
+    background: #f7f7f7;
+    color: #333;
+    padding: 60px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Inner Container */
+  .container-signup-context {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .signup-heading-context {
+    font-size: 2rem;
+    color: #2d2d2d;
+    margin-bottom: 40px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Content Layout */
+  .signup-content-context {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  /* Image Styling */
+  .signup-image-context img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Form Wrapper */
+  .signup-form-wrapper-context {
+    flex: 1;
+    max-width: 450px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Form Labels */
+  .form-label-context {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Form Inputs */
+  .form-input-context {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input-context:focus {
+    border-color: #ffd700;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .form-button-context {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background: linear-gradient(90deg, #3a0656, #6c04a3);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .form-button-context:hover {
+    background: linear-gradient(90deg,  #6c04a3, #3a0656);
+    transform: translateY(-2px);
+  }
+  
+  /* Success Message */
+  .form-success-context {
+    font-size: 1rem;
+    color: #2d2d2d;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .form-success-context.visible {
+    display: block;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .signup-content-context {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .signup-image-context img {
+      max-width: 80%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  textarea.form-input-context {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+    resize: vertical; /* Позволяет изменять высоту только вертикально */
+    min-height: 120px; /* Минимальная высота */
+    max-height: 500px;
+}
+
+/* Стиль при фокусе */
+textarea.form-input-context:focus {
+    outline: none;
+    border-color: #4285f4;
+    box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.2);
+}
+
+/* Стиль для плейсхолдера */
+textarea.form-input-context::placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+
 
 
 
