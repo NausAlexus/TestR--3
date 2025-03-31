@@ -407,7 +407,7 @@ body::-webkit-scrollbar-track {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url('img/home/hero-bg.jpg');
+    background-image: url('img/about-bg.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1016,6 +1016,10 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
     padding: 20px;
 }
 
+.how-to-play-content {
+    margin-top: 50px;
+}
+
 .about-rummy__container {
     display: flex;
     flex-direction: row;
@@ -1131,6 +1135,10 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
     text-align: center;
 }
 
+.about-rummy__image {
+    border-radius: 30px;
+}
+
 .rummy-features__list {
     list-style-type: none;
     padding: 0;
@@ -1199,7 +1207,88 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
 
 
 
+.advantages-section {
+    padding: 3rem 1rem;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
 
+.advantages-title {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #000000;
+    margin-bottom: 3rem;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.advantage-block {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.advantage-block:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.advantage-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.advantage-text {
+    padding: 20px;
+}
+
+.advantage-description {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #555;
+    margin: 1rem 0;
+}
+
+.btn-vacancies {
+    background-color: #5e0098;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.revers-text {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .advantage-block {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .advantages-title {
+        font-size: 2.2rem;
+    }
+
+    .advantage-description {
+        font-size: 0.9rem;
+    }
+
+    .btn-vacancies {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
 
 
 
@@ -1240,5 +1329,9 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
     }
     .about-rummy__button:hover {
         background-color: #7800ce;
+    }
+    .btn-vacancies:hover {
+        background-color: #8100d1;
+        transform: translateY(-2px);
     }
 }

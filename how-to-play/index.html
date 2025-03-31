@@ -14,6 +14,7 @@
 
     <script src="/burgerMenu.js" defer></script>
     <script src="/popUp.js" defer></script>
+    <script src="/about.js" defer></script>
 
 
 </head>
@@ -51,7 +52,104 @@
     </header>
 
     <main class="how-to-play-content">
-
+        <section class="about-rummy">
+            <div class="about-rummy__container">
+                <div class="about-rummy__sidebar">
+                    <button class="about-rummy__button about-rummy__button--active" data-content="mission">Game Overview</button>
+                    <button class="about-rummy__button" data-content="gameplay">Crafting Sequences and Sets</button>
+                    <button class="about-rummy__button" data-content="community">Advanced Player Strategies</button>
+                    <button class="about-rummy__button" data-content="compliance">Winning Tips and Techniques</button>
+                    <button class="about-rummy__button" data-content="responsible">The Legacy of Card Games</button>
+                    <button class="about-rummy__button" data-content="support">Contact Us for Assistance</button>
+                </div>
+                <div class="about-rummy__content">
+                    <div class="about-rummy__text display-block" id="mission"> <!-- Initially displayed -->
+                        <h1 class="about-rummy__title">Game Overview</h1>
+                        <img src="/img/how-play-1.jpg" alt="Game Overview" class="about-rummy__image">
+                        <p>Familiarize yourself with the fundamental rules and detailed instructions to excel in InfinityRummyx:</p>
+                        <p>InfinityRummyx accommodates between 2 and 6 players utilizing two standard decks of cards. At the beginning of the game, each player receives 13 cards, and a wild card, which serves as a joker, is selected at random. Players take turns drawing either from the main deck or the discard pile with the goal of forming valid sequences and sets. Both jokers and wild cards can be instrumental in creating impure sequences and sets. To successfully declare your hand, you must possess at least two sequences, one of which must be a pure sequence. Once your cards are arranged correctly, you can then make your declaration.</p>
+                        <h3>Essential Strategies for Winning at Rummy</h3>
+                        <p>Understanding the rules is just the beginning; a strategic mindset is crucial for success. Here are several tips designed to enhance your gameplay:</p>
+                        <ul>
+                            <li>Prioritize forming a pure sequence early in the game—failing to do so will prevent a valid declaration.</li>
+                            <li>Be cautious with high-ranking cards like Ace, King, Queen, and Jack, and discard them only if they don’t contribute to forming a sequence.</li>
+                            <li>Avoid overly frequent picks from the discard pile to keep your strategies concealed from your opponents.</li>
+                            <li>Leverage wild cards judiciously to complete sets and impure sequences, but remember they cannot be used in pure sequences.</li>
+                            <li>Before declaring your hand, double-check your organization to prevent any invalid declarations, which can result in automatic loss.</li>
+                        </ul>
+                        <h3>Key Terminology in Rummy</h3>
+                        <ul>
+                            <li><strong>Playing Field:</strong> The designated area where 2 to 6 players compete against one another.</li>
+                            <li><strong>Wild Cards & Jokers:</strong> Each deck contains a printed joker card, along with one wild card chosen randomly.</li>
+                            <li><strong>Drawing & Discarding:</strong> Starting with 13 cards, players draw one card from either the main deck or the discard pile and then discard one card each turn.</li>
+                            <li><strong>Card Arrangement:</strong> Organizing your cards strategically is vital for constructing sequences effectively.</li>
+                            <li><strong>Exiting the Game:</strong> Players have the option to leave a game in progress but will incur point penalties—20 points for leaving early, 40 for a mid-game exit, and 80 for a late exit.</li>
+                            <li><strong>Invalid Declaration:</strong> Making a declaration without the required sequences results in automatic disqualification from that round.</li>
+                        </ul>
+                    </div>
+                    <div class="about-rummy__text display-none" id="gameplay">
+                        <h2>Crafting Sequences and Sets</h2>
+                        <img src="/img/how-play-2.jpg" alt="Sequence & Set Formation" class="about-rummy__image">
+                        <p>Success in InfinityRummyx hinges on your ability to successfully create sequences and sets. A sequence is defined as three or more consecutive cards of the same suit, while a set consists of three or four cards that share the same rank but differ in suit.</p>
+                        <h3>Understanding Pure Sequences</h3>
+                        <p>Establishing a pure sequence is crucial for validating your declaration. A pure sequence consists of at least three consecutive cards of the same suit, without the inclusion of any jokers. Without a pure sequence, your declaration stands invalid and cannot be accepted.</p>
+                        <p>Creating a pure sequence as early as possible in the game significantly enhances your chances of achieving a successful declaration.</p>
+                        <h3>Exploring Impure Sequences</h3>
+                        <p>On the other hand, an impure sequence functions similarly to a pure sequence but allows for one joker to take the place of a missing card. While an impure sequence is valid, it cannot substitute for the required pure sequence.</p>
+                        <h3>Establishing Sets</h3>
+                        <p>A set is defined as three or four cards that share the same rank but vary in suit. Forming sets not only reduces your overall score but also increases your likelihood of successfully making a valid declaration.</p>
+                        <h3>Strategic Considerations for Sequences and Sets</h3>
+                        <p>Here are valuable strategic points to consider while enhancing your ability to create sequences and sets:</p>
+                        <ul>
+                            <li>Focus on establishing a pure sequence right from the outset.</li>
+                            <li>Observe your opponents and avoid unnecessary discards that might reveal your strategy.</li>
+                            <li>Use jokers wisely to complete sequences and sets as needed.</li>
+                            <li>Be proactive in discarding high-point cards if they do not benefit your hand.</li>
+                        </ul>
+                    </div>
+                    <div class="about-rummy__text display-none" id="community">
+                        <h2>Advanced Player Strategies</h2>
+                        <img src="/img/how-play-3.jpg" alt="Advanced Rummy Strategies" class="about-rummy__image">
+                        <p>To truly excel in InfinityRummyx, it's essential for players to integrate careful planning with adaptable strategies. A skillful player must pay close attention to their opponents' moves and adjust their tactics accordingly throughout the duration of the game.</p>
+                        <h3>Establish Your Foundation Quickly</h3>
+                        <p>Creating a pure sequence as soon as possible is critical to your strategy; aim to establish one without delay.</p>
+                        <h3>Exercise Caution with High-Value Cards</h3>
+                        <p>Be mindful of high-value cards, as they could lead to point penalties, making it essential to evaluate their importance in your hand and whether to keep or discard them.</p>
+                        <h3>Learn from Your Opponents</h3>
+                        <p>Every card drawn or discarded by other players provides insightful clues regarding their strategies and possible intentions.</p>
+                        <h3>Optimize the Use of Jokers</h3>
+                        <p>Use jokers wisely to complete vital sequences, while refraining from employing them within pure sequences.</p>
+                        <h3>Adapt Your Gameplay as Needed</h3>
+                        <p>Flexibility in your approach is crucial. Be ready to alter your gameplay strategies depending on the current state of the game.</p>
+                    </div>
+                    <div class="about-rummy__text display-none" id="compliance">
+                        <h2>Winning Tips and Techniques</h2>
+                        <img src="/img/how-play-4.jpg" alt="Quick Winning Tips" class="about-rummy__image">
+                        <p>Maximize your chances of victory with these practical recommendations:</p>
+                        <ul>
+                            <li>Quickly establish your pure sequence to secure your chances of winning.</li>
+                            <li>Maintain flexibility—be prepared to modify your tactics as the game evolves.</li>
+                            <li>Discard high-point cards swiftly to minimize potential risks.</li>
+                            <li>Monitor which cards your opponents are discarding closely to inform your decisions.</li>
+                            <li>Use the discard pile strategically, ensuring you do not inadvertently give away your game plan.</li>
+                            <li>Regular practice is key to enhancing your overall game experience and mastery.</li>
+                        </ul>
+                    </div>
+                    <div class="about-rummy__text display-none" id="responsible">
+                        <h2>The Legacy of Card Games</h2>
+                        <img src="/img/how-play-5.jpg" alt="History of Card Games" class="about-rummy__image">
+                        <p>The history of card games is rich, stemming from diverse cultures and spanning numerous centuries. In India, traditional card games have been cherished pastimes among royalty, often reflecting their artistic, cultural, and strategic significance.</p>
+                        <p>Today, InfinityRummyx celebrates this illustrious heritage by merging timeless strategies with contemporary gameplay, providing players with an exhilarating and competitive gaming experience. We honor the historical context of card games while ensuring a modern twist that appeals to today’s players.</p>
+                    </div>
+                    <div class="about-rummy__text display-none" id="support">
+                        <h2>Contact Us for Assistance</h2>
+                        <img src="/img/how-play-6.jpg" alt="Customer Support" class="about-rummy__image">
+                        <p>At InfinityRummyx, we are wholeheartedly committed to delivering exceptional customer service and support, available to you around the clock to address any queries or concerns you might have.</p>
+                        <p>You can easily reach our dedicated support team through various channels, including email, phone, and live chat. Our objective is to swiftly resolve your inquiries in a manner that enhances your overall gaming experience. We greatly value your feedback and utilize it to continually refine our services.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
