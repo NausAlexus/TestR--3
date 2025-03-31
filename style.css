@@ -672,6 +672,90 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
     }
 }
 
+.rummyInfinity-online {
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.rummyInfinity-online-title {
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.rummyInfinity-online-content {
+    background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.initialInfinity-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.rummyInfinity-online-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #ff4081;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.rummyInfinity-online-button:hover {
+    background-color: #e91e63;
+    transform: scale(1.05);
+}
+.hiddenInfinity {
+    display: none;
+}
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+    .rummyInfinity-online-title {
+        font-size: 2rem;
+    }
+
+    .initialInfinity-paragraph {
+        font-size: 1rem;
+    }
+
+    .rummyInfinity-online-button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .rummyInfinity-online {
+        padding: 20px;
+    }
+
+    .rummyInfinity-online-title {
+        font-size: 1.5rem;
+    }
+
+    .initialInfinity-paragraph {
+        font-size: 0.9rem;
+    }
+
+    .rummyInfinity-online-button {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+}
 
 
 
@@ -683,6 +767,87 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
 
 
 
+
+
+
+.rummy-section {
+    max-width: 1360px;
+    margin: auto;
+    padding: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.rummy-button {
+    flex: 1;
+    padding: 15px;
+    color: #ffffff;
+    background-color: #40006e; /* Primary color */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 30px;
+}
+
+.rummy-button.active {
+    background-color: #5d5d5d; /* Highlighted color */
+    color: white;
+}
+
+.rummy-button:hover {
+    background-color: #acacac; /* Darker primary on hover */
+}
+
+.content-block {
+    display: none;
+    margin-top: 20px;
+    text-align: left;
+    background: rgb(255,249,0);
+    background: linear-gradient(90deg, rgba(255,249,0,0.45094534395789565) 0%, rgba(169,25,250,0.36691173051251746) 78%);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.content-block.active {
+    display: block;
+}
+
+.content-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.rummy-section h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.rummy-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.rummy-section ul {
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .button-group {
+        flex-direction: column;
+    }
+
+    .rummy-button {
+        margin-bottom: 10px;
+    }
+}
 
 
 
