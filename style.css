@@ -705,7 +705,7 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 20px;
-    background-color: #ff4081;
+    background-color: #4c0064;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -713,11 +713,6 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
     font-size: 1.1rem;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-}
-
-.rummyInfinity-online-button:hover {
-    background-color: #e91e63;
-    transform: scale(1.05);
 }
 .hiddenInfinity {
     display: none;
@@ -847,7 +842,65 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
 
 
 
+.reviews-section {
+    overflow: hidden;
+}
 
+.reviews-section-title {
+    text-align: center;
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.slider-review {
+    margin-top: 15px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.review {
+    flex: 0 0 100%;
+    padding: 5px;
+    background: rgb(255,249,0);
+    background: linear-gradient(90deg, rgba(255,249,0,0.45094534395789565) 0%, rgba(169,25,250,0.36691173051251746) 78%);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.review p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.author {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.buttons-review {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-review {
+    padding: 5px 30px;
+    margin: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: #4c0064;
+    transition: background-color 0.3s ease;
+}
+
+.review img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
 
 
 
@@ -874,5 +927,12 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
     }
     .game-team-btn:hover {
         background-color: #ff1900;
+    }
+    .rummyInfinity-online-button:hover {
+        background-color: #8800b1;
+        transform: scale(1.05);
+    }
+    .btn-review:hover {
+        background-color: #8e00ba;
     }
 }
