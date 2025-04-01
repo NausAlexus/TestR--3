@@ -538,7 +538,7 @@ input[type="tel"]:focus {
     color: #ffffff;
 }
 .hero__note a {
-    color: #000000;
+    color: yellow;
     text-decoration: none;
     position: relative;
     transition: color 0.3s;
@@ -641,7 +641,7 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
 .team-card {
     background-color: #40006e;
     border-radius: 8px;
-    padding: 15px;
+    padding: 25px 15px;
     width: calc(33.33% - 20px);
     transition: transform 0.3s;
 }
@@ -663,6 +663,10 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
 .team-card p {
     margin: 5px 0;
 }
+
+.team-card p:last-of-type {
+    margin-bottom: 20px;
+  }
 
 .game-team-btn {
     text-decoration: none;
@@ -1045,6 +1049,7 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
     font-size: 16px;
     text-align: left;
     transition: background-color 0.3s ease;
+    text-align: center;
 }
 
 .about-rummy__button--active {
@@ -1170,6 +1175,8 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
 
     .rummy-features__item {
         font-size: 14px;
+        flex-direction: column;
+
     }
 
     .rummy-features__icon {
@@ -1452,6 +1459,38 @@ textarea.form-input-context::placeholder {
     color: #999;
     opacity: 1;
 }
+
+.contacts-content{
+    margin-top: 20px;
+}
+
+
+.lang-switcher {
+    display: flex;
+    gap: 8px;
+    margin-left: auto; /* Размещаем справа */
+  }
+  
+  .lang-btn {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s;
+  }
+  
+  .lang-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .lang-btn.active {
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+  }
 
 
 
