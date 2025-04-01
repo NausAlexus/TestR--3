@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
+    <title data-translate="title">
         InfinityRummyx - Excel in Rummy Through Strategy and Expertise
     </title>
-    <meta name="description"
+    <meta name="description" data-translate="description"
         content="Welcome to InfinityRummyx, where your tactical skills and clever strategies take center stage! Participate in thrilling Rummy matches that prioritize skill over chance. Join our dynamic community of players, improve your game, and enjoy friendly rivalries. Immerse yourself in the realm of Rummy and elevate your journey with InfinityRummyx today!"
     />
     <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css" />
     <link rel="icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
 
+    <script src="translations.js"></script>
     <script src="burgerMenu.js" defer></script>
     <script src="tel.js" defer></script>
     <script src="popUp.js" defer></script>
@@ -27,7 +28,12 @@
 <body>
     <header class="header">
         <nav class="navigation">
-            <a class="header-link" href="/">InfinityRummyx</a>
+            <a class="header-link" href="/" data-translate="txt1">InfinityRummyx</a>
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="en" data-translate="txt8">EN</button>
+                <button class="lang-btn" data-lang="hi" data-translate="txt9">हिंदी</button>
+              </div>
+
             <div class="burger-menu" id="burgerMenu">
                 <div class="burger-line"></div>
                 <div class="burger-line"></div>
@@ -35,230 +41,224 @@
             </div>
             <ul class="nav-list" id="navList">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-hover" href="/">Home</a>
+                    <a class="nav-link nav-link-hover" href="/" data-translate="txt2">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-hover" href="about/">About</a>
+                    <a class="nav-link nav-link-hover" href="about/" data-translate="txt3">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-hover" href="faq/">FAQ</a>
+                    <a class="nav-link nav-link-hover" href="faq/" data-translate="txt4">FAQ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-hover" href="how-to-play/">How to play</a>
+                    <a class="nav-link nav-link-hover" href="how-to-play/" data-translate="txt5">How to play</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-hover" href="tournaments/">Tournaments</a>
+                    <a class="nav-link nav-link-hover" href="tournaments/" data-translate="txt6">Tournaments</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-hover" href="contacts/">Contacts</a>
+                    <a class="nav-link nav-link-hover" href="contacts/" data-translate="txt7">Contacts</a>
                 </li>
             </ul>
-            <div class="lang-switcher">
-                <button class="lang-btn active" data-lang="en">EN</button>
-                <button class="lang-btn" data-lang="hi">हिंदी</button>
-              </div>
         </nav>
     </header>
 
     <main class="main-content">
         <section class="hero-section">
             <div class="hero-overlay">
-                <h1 class="hero-title">Embrace the Journey!</h1>
-                <p class="hero-subtitle">
+                <h1 class="hero-title" data-translate="txt10">Embrace the Journey!</h1>
+                <p class="hero-subtitle" data-translate="txt11">
                     Welcome to InfinityRummyx, where the charm of Rummy meets the thrill of friendly competition!
                 </p>
                 
                 <form action="thanks_form.php" method="post" id="register" class="hero__form">
-                    <label for="phoneInput" class="hero__label">Phone Number</label>
+                    <label for="phoneInput" class="hero__label" data-translate="txt12">Phone Number</label>
                     <input name="phone" type="tel" placeholder="Enter your phone number" id="phoneInput" required>
                 
-                    
                     <div class="hero-flex-cont">
                         <input type="checkbox" name="checkbox" id="saw" required>
                         <label for="saw" class="hero__note">
-                            I agree to the 
-                            <a href="privacy-policy/">Privacy &amp; Policy</a>
+                            <span data-translate="agree_text">I agree to the</span> 
+                            <a href="privacy-policy/" data-translate="txt13">Privacy &amp; Policy</a>
                         </label>
                     </div>
-                    <button type="submit" id="registerBtn" class="btn-hero" >Get OTP</button>
+                    <button type="submit" id="registerBtn" class="btn-hero" data-translate="txt14">Get OTP</button>
                 </form>
             </div>
         </section>
 
         <section class="team-section">
-            <h2>Unleash Your Skills in Rummy</h2>
-            <p>
+            <h2 data-translate="txt15">Unleash Your Skills in Rummy</h2>
+            <p data-translate="txt16">
                 Excel in the game by utilizing strategic insights, critical thinking, and enhanced gameplay tactics. InfinityRummyx provides numerous opportunities to sharpen your abilities.
             </p>
         
             <div class="team-cards">
                 <div class="team-card">
                     <img src="img/home/info-1.jpg" alt="rammy-1">
-                    <h3>Immerse Yourself in Exciting Rummy Variants</h3>
-                    <p>Points, Pool, and Deals Formats</p>
-                    <p>Available for Skill Development Around the Clock</p>
-                    <p>Compete in Thrilling Indian Tournaments</p>
-                    <a href="contacts/" class="game-team-btn">Join and Start</a>
+                    <h3 data-translate="txt17">Immerse Yourself in Exciting Rummy Variants</h3>
+                    <p data-translate="txt18">Points, Pool, and Deals Formats</p>
+                    <p data-translate="txt19">Available for Skill Development Around the Clock</p>
+                    <p data-translate="txt20">Compete in Thrilling Indian Tournaments</p>
+                    <a href="contacts/" class="game-team-btn" data-translate="txt21">Join and Start</a>
                 </div>
                 <div class="team-card">
                     <img src="img/home/info-2.jpg" alt="rammy-2">
-                    <h3>Unmatched Security Measures</h3>
-                    <p>SSL Encryption for Safe Online Transactions</p>
-                    <p>Games Certified for Fairness by iTech Labs</p>
-                    <p>Fully Secure Payment Alternatives Available</p>
-                    <a href="contacts/" class="game-team-btn">Discover More</a>
+                    <h3 data-translate="txt22">Unmatched Security Measures</h3>
+                    <p data-translate="txt23">SSL Encryption for Safe Online Transactions</p>
+                    <p data-translate="txt24">Games Certified for Fairness by iTech Labs</p>
+                    <p data-translate="txt25">Fully Secure Payment Alternatives Available</p>
+                    <a href="contacts/" class="game-team-btn" data-translate="txt26">Discover More</a>
                 </div>
                 <div class="team-card">
                     <img src="img/home/info-3.jpg" alt="rammy-3">
-                    <h3>The Ultimate Rummy Adventure</h3>
-                    <p>Join a Community of Over 70 Million Players</p>
-                    <p>Experience Lightning-Fast Game Rooms</p>
-                    <p>Engage in Multi-Table Skill Challenges</p>
-                    <a href="contacts/" class="game-team-btn">Get Involved</a>
+                    <h3 data-translate="txt27">The Ultimate Rummy Adventure</h3>
+                    <p data-translate="txt28">Join a Community of Over 70 Million Players</p>
+                    <p data-translate="txt29">Experience Lightning-Fast Game Rooms</p>
+                    <p data-translate="txt30">Engage in Multi-Table Skill Challenges</p>
+                    <a href="contacts/" class="game-team-btn" data-translate="txt31">Get Involved</a>
                 </div>
                 <div class="team-card">
                     <img src="img/home/info-4.jpg" alt="rammy-4">
-                    <h3>Commitment to Responsible Gaming</h3>
-                    <p>Policy for Fair Play</p>
-                    <p><p>Policy for Fair Play</p></p>
-                    <p>Set Personal Daily Limits</p>
-                    <a href="contacts/" class="game-team-btn">Pledge to Play</a>
+                    <h3 data-translate="txt32">Commitment to Responsible Gaming</h3>
+                    <p data-translate="txt33">Policy for Fair Play</p>
+                    <p data-translate="txt34">Policy for Fair Play</p>
+                    <p data-translate="txt35">Set Personal Daily Limits</p>
+                    <a href="contacts/" class="game-team-btn" data-translate="txt36">Pledge to Play</a>
                 </div>
                 <div class="team-card">
                     <img src="img/home/info-5.jpg" alt="rammy-5">
-                    <h3>Quick and Efficient Withdrawals</h3>
-                    <p>Immediate Payment Processing</p>
-                    <p>24/7 Withdrawal Availability</p>
-                    <p>Compatible with All Major Credit Cards</p>
-                    <a href="contacts/" class="game-team-btn">Explore Options</a>
+                    <h3 data-translate="txt37">Quick and Efficient Withdrawals</h3>
+                    <p data-translate="txt38">Immediate Payment Processing</p>
+                    <p data-translate="txt39">24/7 Withdrawal Availability</p>
+                    <p data-translate="txt40">Compatible with All Major Credit Cards</p>
+                    <a href="contacts/" class="game-team-btn" data-translate="txt41">Explore Options</a>
                 </div>
                 <div class="team-card">
                     <img src="img/home/info-6.jpg" alt="rammy-6">
-                    <h3>Exceptional Customer Support</h3>
-                    <p>24/7 Assistance from Our Support Team</p>
-                    <p>Helpful FAQs and Resources</p>
-                    <p>Personalized Assistance for All Your Needs</p>
-                    <a href="contacts/" class="game-team-btn">Join Our</a>
+                    <h3 data-translate="txt42">Exceptional Customer Support</h3>
+                    <p data-translate="txt43">24/7 Assistance from Our Support Team</p>
+                    <p data-translate="txt44">Helpful FAQs and Resources</p>
+                    <p data-translate="txt45">Personalized Assistance for All Your Needs</p>
+                    <a href="contacts/" class="game-team-btn" data-translate="txt46">Join Our</a>
                 </div>
             </div>
         </section>
 
         <section class="rummyInfinity-online">
-            <h2 class="rummyInfinity-online-title">Dive into Online Rummy with InfinityRummyx</h2>
+            <h2 class="rummyInfinity-online-title" data-translate="txt47">Dive into Online Rummy with InfinityRummyx</h2>
             <div class="rummyInfinity-online-content">
-                <p class="initialInfinity-paragraph">Rummy transcends being merely a card game; it embodies a sophisticated blend of strategy, foresight, and intellect. At InfinityRummyx, we recreate this cherished Indian classic in a contemporary digital format, providing an exciting and competitive atmosphere. Regardless of whether you're a seasoned expert or a beginner eager to hone your skills, our platform empowers you to refine your rummy abilities anytime, anywhere, and on any device.</p>
+                <p class="initialInfinity-paragraph" data-translate="txt48">Rummy transcends being merely a card game; it embodies a sophisticated blend of strategy, foresight, and intellect...</p>
                 
-                <p class="initialInfinity-paragraph">At InfinityRummyx, our mission is to create a rich gaming experience that emphasizes skill enhancement and strategy development. With advanced analytics and customized gameplay options, every player can advance their tactical approaches while indulging in a fair and secure gaming environment. We prioritize skill and clever tactics, making each match a genuine challenge to your abilities.</p>
+                <p class="initialInfinity-paragraph" data-translate="txt49">At InfinityRummyx, our mission is to create a rich gaming experience that emphasizes skill enhancement and strategy development...</p>
         
                 <div class="additionalInfinity-paragraphs hiddenInfinity">
-                    <p>With a vibrant community boasting over 30 million active players, InfinityRummyx delivers engaging, skill-based competitions around the clock. Whether you seek a laid-back game or wish to dive into competitive tournaments, our platform provides various options tailored to your preferences. Engage with fellow rummy enthusiasts and sharpen your skills in multiplayer environments where quick thinking and effective strategies are crucial for victory.</p>
-                    <p>Become a part of InfinityRummyx and experience the excitement of multi-table tournaments that allow effortless transitions between different game types. With thousands of players competing in various events at any hour, you will always find challenging opponents ready to test your skills. To begin your thrilling journey, simply register and start enhancing your rummy prowess.</p>
-                    <p>Should you encounter any difficulties while playing, our dedicated customer support team is readily available to assist you. Just reach out via email, and our technical experts will provide thorough guidance to navigate any issues, ensuring you receive step-by-step assistance promptly.</p>
-                    <p>InfinityRummyx features intuitive controls, including single-card swapping and quick sorting functionalities, creating a seamless interface that helps you concentrate fully on mastering your rummy strategies. Moreover, our platform offers exclusive promotions and bonuses tailored specifically for registered members.</p>
-                    <p>What truly sets InfinityRummyx apart from other platforms are our thrilling online tournaments and annual rummy celebrations. Whether competing online or in face-to-face encounters, InfinityRummyx brings together the finest rummy players nationwide for intense and exhilarating contests. Immerse yourself in your favorite skill-based game and connect with a dynamic community of strategic thinkers.</p>
+                    <p data-translate="txt50">With a vibrant community boasting over 30 million active players...</p>
+                    <p data-translate="txt51">Become a part of InfinityRummyx and experience the excitement of multi-table tournaments...</p>
+                    <p data-translate="txt52">Should you encounter any difficulties while playing...</p>
+                    <p data-translate="txt53">InfinityRummyx features intuitive controls...</p>
+                    <p data-translate="txt54">What truly sets InfinityRummyx apart from other platforms...</p>
                 </div>
                 
-                <button class="rummyInfinity-online-button">Discover More</button>
+                <button class="rummyInfinity-online-button" data-translate="txt55">Discover More</button>
             </div>
         </section>
 
         <section class="rummy-section">
             <div class="button-group">
-                <button class="rummy-button active" data-target="legal">Rummy is Completely Legal</button>
-                <button class="rummy-button" data-target="variants">Different Types of Rummy Games</button>
-                <button class="rummy-button" data-target="safety">Why InfinityRummyx Is Safe?</button>
-                <button class="rummy-button" data-target="learn">Become a Rummy Expert</button>
-                <button class="rummy-button" data-target="enjoy">Enjoy Rummy on Your Mobile</button>
-                <button class="rummy-button" data-target="tips">Smart Rummy Strategies</button>
+                <button class="rummy-button active" data-target="legal" data-translate="txt56">Rummy is Completely Legal</button>
+                <button class="rummy-button" data-target="variants" data-translate="txt57">Different Types of Rummy Games</button>
+                <button class="rummy-button" data-target="safety" data-translate="txt58">Why InfinityRummyx Is Safe?</button>
+                <button class="rummy-button" data-target="learn" data-translate="txt59">Become a Rummy Expert</button>
+                <button class="rummy-button" data-target="enjoy" data-translate="txt60">Enjoy Rummy on Your Mobile</button>
+                <button class="rummy-button" data-target="tips" data-translate="txt61">Smart Rummy Strategies</button>
             </div>
             
-            <!-- Content Blocks -->
             <div class="content-block active" id="legal">
                 <img src="img/home/rummy-1.jpg" alt="Rummy is Completely Legal" class="content-image">
-                <h3>Rummy is Completely Legal</h3>
-                <p>Rummy is officially recognized as a game of skill, not chance, which makes it entirely lawful to engage in. The Supreme Court of India has validated the legality of skill-based games such as Rummy. In contrast to games influenced by luck, Rummy relies on strategic play, careful calculations, and insightful consideration of opponents’ moves, thereby allowing for a legitimate online gaming experience. Be it for entertainment or competitive purposes, Rummy is acknowledged as a lawful pastime.</p>
-                <p>Engaging in Rummy introduces you to a world rich in strategy and thought. Each card drawn offers a chance for astute analysis; recognizing patterns, evaluating your rivals' decisions, and calculating odds are crucial skills that determine your success. You'll tap into cognitive strengths, including strategic reasoning, memory retention, and forward-thinking.</p>
-                <p>Additionally, many countries share similar views on Rummy. As a game based on skill rather than randomness, it is often regarded as legal. Always participate on licensed and regulated platforms to comply with local gaming regulations and standards.</p>
+                <h3 data-translate="txt62">Rummy is Completely Legal</h3>
+                <p data-translate="txt63">Rummy is officially recognized as a game of skill, not chance...</p>
+                <p data-translate="txt64">Engaging in Rummy introduces you to a world rich in strategy and thought...</p>
+                <p data-translate="txt65">Additionally, many countries share similar views on Rummy...</p>
             </div>
         
             <div class="content-block" id="variants">
                 <img src="img/home/rummy-2.jpg" alt="Different Types of Rummy Games" class="content-image">
-                <h3>Different Types of Rummy Games</h3>
-                <p>At InfinityRummyx, players can explore an array of exciting game types, each presenting a unique strategic challenge. Choose from variations such as Points Rummy, Deals Rummy, and Pool Rummy. Excelling in these forms relies on sharpening your skills and rapid decision-making. Rummy fundamentally tests your ability to adapt and outmaneuver your opponents.</p>
-                <p><strong>Points Rummy:</strong> This version focuses on gathering points through the sequences you create. Fast thinking and strategic execution are paramount, as every hand contributes to your cumulative score. Points Rummy ensures a thrilling gaming experience with diverse betting limits that cater to every player.</p>
-                <p><strong>Deals Rummy:</strong> This variant is played over a set number of deals, where your success is contingent on your foresight and ability to read your opponents’ gameplay. With each deal, anticipation grows, emphasizing the importance of score calculations.</p>
-                <p><strong>Pool Rummy:</strong> In this version, strategic foresight is paramount as you strive to outlast your opponents while maximizing your hand. The winner is determined by the total points amassed at the end of a specified number of deals, creating an environment that tests endurance and precision—ideal for those aiming to enhance their patience and strategy.</p>
-                <p><strong>Additional Variants:</strong> InfinityRummyx frequently launches unique or seasonal game types. Keep an eye out for special editions that introduce new challenges and twists, ensuring gameplay remains dynamic and engaging for experienced players.</p>
+                <h3 data-translate="txt66">Different Types of Rummy Games</h3>
+                <p data-translate="txt67">At InfinityRummyx, players can explore an array of exciting game types...</p>
+                <p><strong data-translate="txt68">Points Rummy:</strong> <span data-translate="points_rummy_desc">This version focuses on gathering points...</span></p>
+                <p><strong data-translate="txt69">Deals Rummy:</strong> <span data-translate="deals_rummy_desc">This variant is played over a set number of deals...</span></p>
+                <p><strong data-translate="txt70">Pool Rummy:</strong> <span data-translate="pool_rummy_desc">In this version, strategic foresight is paramount...</span></p>
+                <p><strong data-translate="txt71">Additional Variants:</strong> <span data-translate="additional_variants_desc">InfinityRummyx frequently launches unique or seasonal game types...</span></p>
             </div>
         
             <div class="content-block" id="safety">
                 <img src="img/home/rummy-3.jpg" alt="Why InfinityRummyx Is Safe?" class="content-image">
-                <h3>Why InfinityRummyx Is Safe?</h3>
-                <p>The safety and integrity of play are our utmost priorities at InfinityRummyx. Our platform is meticulously designed to provide a secure environment for every player. By employing certified Random Number Generators (RNG), we ensure fairness in how cards are dealt, and we continuously oversee gameplay to maintain a level playing field. Our stringent fair play policies and secure payment solutions promote transparent and safe skill-driven gaming experiences.</p>
-                <p>We are advocates of responsible gaming practices. We encourage players to judiciously manage their time and finances to foster a healthy gaming culture. You can set limits on deposits, playtime, and various account features to enhance responsible engagement.</p>
-                <p>Our dedicated customer support team is available around the clock to help you with any game-related queries or account concerns. We strive to provide a seamless and equitable gaming experience. We also collaborate with accredited regulators to uphold the integrity of every match.</p>
-                <p>Furthermore, our application utilizes cutting-edge encryption technology to safeguard your data, ensuring that your personal and financial details remain confidential. With InfinityRummyx, you are engaging in not just a game but a secure, credible, and skill-focused environment.</p>
+                <h3 data-translate="txt72">Why InfinityRummyx Is Safe?</h3>
+                <p data-translate="txt73">The safety and integrity of play are our utmost priorities at InfinityRummyx...</p>
+                <p data-translate="txt74">We are advocates of responsible gaming practices...</p>
+                <p data-translate="txt75">Our dedicated customer support team is available around the clock...</p>
+                <p data-translate="txt76">Furthermore, our application utilizes cutting-edge encryption technology...</p>
             </div>
         
             <div class="content-block" id="learn">
                 <img src="img/home/rummy-4.jpg" alt="Become a Rummy Expert" class="content-image">
-                <h3>Become a Rummy Expert</h3>
-                <p>Achieving proficiency in Rummy requires understanding the key strategies that are central to the game. The overall objective is to create sequences and sets using the cards in your hand, the joker, and your capacity to read your opponents' tactics. Whether you are new to the game or aiming to refine your approach, continuous practice and strategic thinking are vital to improving your talents.</p>
-                <p>Start by familiarizing yourself with the different types of sequences—both pure and impure—and their specific rules. As you accumulate experience, your ability to make decisions and plan effectively will sharpen. Utilize tutorials and instructional guides to further develop your skills; every game offers valuable insights that enhance your perceptiveness in predicting your opponents' actions.</p>
-                <p>Countless opportunities exist to refine your Rummy expertise. Whether going up against real players or utilizing AI-powered practice options, every scenario presents distinct chances for growth. Mastering techniques such as card counting, grasping game theory, and anticipating outcomes is crucial for serious Rummy fans.</p>
-                <p>As you develop your skills, challenge yourself by participating in tournaments or higher-stakes matches to gauge your abilities against more experienced competitors. Embrace every loss as an essential part of your learning curve; every encounter offers a chance for personal growth and gameplay improvement.</p>
+                <h3 data-translate="txt77">Become a Rummy Expert</h3>
+                <p data-translate="txt78">Achieving proficiency in Rummy requires understanding the key strategies...</p>
+                <p data-translate="txt79">Start by familiarizing yourself with the different types of sequences...</p>
+                <p data-translate="txt80">Countless opportunities exist to refine your Rummy expertise...</p>
+                <p data-translate="txt81">As you develop your skills, challenge yourself by participating in tournaments...</p>
             </div>
         
             <div class="content-block" id="enjoy">
                 <img src="img/home/rummy-5.jpg" alt="Enjoy Rummy on Your Mobile" class="content-image">
-                <h3>Enjoy Rummy on Your Mobile</h3>
-                <p>Immerse yourself in the excitement of InfinityRummyx anytime and anywhere with our mobile application. Our platform ensures seamless gameplay, enabling you to hone your strategies while enjoying the game on your mobile device. Compatible with both Android and iOS systems, our app offers an engaging experience for all users. Jump into games instantly, devise new tactics, and challenge other skilled players—all from the convenience of your pocket.</p>
-                <p>Regardless of your location—be it during commutes, on breaks, or while relaxing at home—the InfinityRummyx app invites you into the exhilarating world of Rummy. Log in, monitor your stats, and easily join tables making it simple to enjoy the game whenever you desire.</p>
-                <p>Optimized for visual excellence and performance, our app adapts seamlessly to both smartphones and tablets. In addition, we offer push notifications to keep you informed about your favorite games, latest offers, and tournament events.</p>
+                <h3 data-translate="txt82">Enjoy Rummy on Your Mobile</h3>
+                <p data-translate="txt83">Immerse yourself in the excitement of InfinityRummyx anytime and anywhere...</p>
+                <p data-translate="txt84">Regardless of your location—be it during commutes, on breaks...</p>
+                <p data-translate="txt85">Optimized for visual excellence and performance...</p>
             </div>
         
             <div class="content-block" id="tips">
                 <img src="img/home/rummy-6.jpg" alt="Smart Rummy Strategies" class="content-image">
-                <h3>Smart Rummy Strategies</h3>
-                <p>Developing your Rummy skills demands regular practice coupled with an in-depth grasp of strategic methods. Here are some crucial strategies to keep in mind:</p>
+                <h3 data-translate="txt86">Smart Rummy Strategies</h3>
+                <p data-translate="txt87">Developing your Rummy skills demands regular practice...</p>
                 <ul>
-                    <li>Focus on forming a pure sequence early, as it is a fundamental requirement for a valid hand.</li>
-                    <li>Consistently observe your opponents’ moves. Understanding their strategies can equip you with an advantage in predicting their next actions.</li>
-                    <li>Discards high-value cards promptly if they aren't helping your sequences.</li>
-                    <li>Use jokers strategically to form sequences without compromising essential cards.</li>
-                    <li>If you receive a weak hand, consider exiting the game to minimize losses.</li>
-                    <li>Engage in continuous practice to broaden your expertise and fine-tune your strategies.</li>
-                    <li>Pay attention to discarded cards, as they offer valuable insights into your opponents’ strategies.</li>
-                    <li>Learn to employ bluffing when the situation demands, but do so judiciously.</li>
-                    <li>Balance your offensive tactics with defensive play; obstructing an opponent's sequence can be just as critical as pursuing your own.</li>
-                    <li>Maintain patience and careful deliberation with your choices. Take the time to consider your optimal moves.</li>
+                    <li data-translate="txt88">Focus on forming a pure sequence early...</li>
+                    <li data-translate="txt89">Consistently observe your opponents' moves...</li>
+                    <li data-translate="txt90">Discards high-value cards promptly...</li>
+                    <li data-translate="txt91">Use jokers strategically to form sequences...</li>
+                    <li data-translate="txt92">If you receive a weak hand, consider exiting...</li>
+                    <li data-translate="txt93">Engage in continuous practice to broaden...</li>
+                    <li data-translate="txt94">Pay attention to discarded cards...</li>
+                    <li data-translate="txt95">Learn to employ bluffing when the situation demands...</li>
+                    <li data-translate="txt96">Balance your offensive tactics with defensive play...</li>
+                    <li data-translate="txt97">Maintain patience and careful deliberation...</li>
                 </ul>
             </div>
         </section>
 
         <section class="reviews-section" id="reviews">
             <div class="container">
-                <h2 class="reviews-section-title">Testimonials from our beloved players</h2>
+                <h2 class="reviews-section-title" data-translate="txt98">Testimonials from our beloved players</h2>
                 <div class="slider-review" id="slider">
                     <div class="review">
                         <img src="img/home/review-1.jpg" alt="Review 1">
-                        <p>"InfinityRummyx has transformed my experience with card games! The user interface is seamless, and the strategies seem limitless!"</p>
-                        <p class="author">Arjun Singh, India, Delhi</p>
+                        <p data-translate="txt99">"InfinityRummyx has transformed my experience with card games! The user interface is seamless, and the strategies seem limitless!"</p>
+                        <p class="author" data-translate="txt100">Arjun Singh, India, Delhi</p>
                     </div>
                     <div class="review">
                         <img src="img/home/review-2.jpg" alt="Review 2">
-                        <p>"Every session on InfinityRummyx is exhilarating! The visuals are breathtaking, and I thrive in the competitive atmosphere."</p>
-                        <p class="author">Nisha Verma, India, Mumbai</p>
+                        <p data-translate="txt101">"Every session on InfinityRummyx is exhilarating! The visuals are breathtaking, and I thrive in the competitive atmosphere."</p>
+                        <p class="author" data-translate="txt102">Nisha Verma, India, Mumbai</p>
                     </div>
                     <div class="review">
                         <img src="img/home/review-3.jpg" alt="Review 3">
-                        <p>"I never imagined I could enjoy Rummy this much! InfinityRummyx offers top-notch features and a vibrant community."</p>
-                        <p class="author">Rahul Bhatia, India, Bangalore</p>
+                        <p data-translate="txt103">"I never imagined I could enjoy Rummy this much! InfinityRummyx offers top-notch features and a vibrant community."</p>
+                        <p class="author" data-translate="txt104">Rahul Bhatia, India, Bangalore</p>
                     </div>
                     <div class="review">
                         <img src="img/home/review-4.jpg" alt="Review 4">
-                        <p>"InfinityRummyx is a fantastic platform for all Rummy enthusiasts. I love how simple it is to understand and play!"</p>
-                        <p class="author">Pooja Reddy, India, Chennai</p>
+                        <p data-translate="txt105">"InfinityRummyx is a fantastic platform for all Rummy enthusiasts. I love how simple it is to understand and play!"</p>
+                        <p class="author" data-translate="txt106">Pooja Reddy, India, Chennai</p>
                     </div>
                 </div>
                 
@@ -275,63 +275,57 @@
 
         <section class="rummy-card-section">
             <div class="rummy-card">
-                <h3 class="rummy-card-title">Purely Skill-Based:</h3>
+                <h3 class="rummy-card-title" data-translate="txt107">Purely Skill-Based:</h3>
                 <div class="rummy-card-content">
                     <i class="fas fa-check-circle rummy-card-icon"></i>
-                    <p class="rummy-card-text">At InfinityRummyx, we proudly adhere to the legal standards set in various regions. Courts identify Rummy as a skill-centric game rather than a game of chance. Consequently, you can engage in this tactical card game either for leisure or within competitive skill-building tournaments.</p>
+                    <p class="rummy-card-text" data-translate="txt108">At InfinityRummyx, we proudly adhere to the legal standards set in various regions...</p>
                 </div>
             </div>
             
             <div class="rummy-card">
-                <h3 class="rummy-card-title">Encouraging Responsible Play:</h3>
+                <h3 class="rummy-card-title" data-translate="txt109">Encouraging Responsible Play:</h3>
                 <div class="rummy-card-content">
                     <i class="fas fa-heart rummy-card-icon"></i>
-                    <p class="rummy-card-text">InfinityRummyx promotes responsible gaming habits among its players. We advocate for a balanced approach to play, emphasizing enjoyment and skill advancement. Set your personal boundaries and aim for continuous improvement without falling to external pressures.</p>
+                    <p class="rummy-card-text" data-translate="txt110">InfinityRummyx promotes responsible gaming habits among its players...</p>
                 </div>
             </div>
             
             <div class="rummy-card">
-                <h3 class="rummy-card-title">Become Part of the Rummy Family:</h3>
+                <h3 class="rummy-card-title" data-translate="txt111">Become Part of the Rummy Family:</h3>
                 <div class="rummy-card-content">
                     <i class="fas fa-comments rummy-card-icon"></i>
-                    <p class="rummy-card-text">Join the vibrant community of card game lovers at InfinityRummyx! Share strategies, collaborate on tactics, and participate in exciting tournaments. Your journey in Rummy transcends mere winning; it’s about forging meaningful relationships with fellow enthusiasts!</p>
+                    <p class="rummy-card-text" data-translate="txt112">Join the vibrant community of card game lovers at InfinityRummyx!...</p>
                 </div>
             </div>
         </section>
-
-        
-        
     </main>
 
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-details">
-                <a class="footer-brand" href="/">InfinityRummyx</a>
+                <a class="footer-brand" href="/" data-translate="txt113">InfinityRummyx</a>
             </div>
             <div class="footer-links">
-                <a href="privacy-policy/">Privacy Policy</a>
-                <a href="terms-conditions/">Terms And Conditions</a>
-                <a href="responsible-gaming/">Responsible Gaming</a>
+                <a href="privacy-policy/" data-translate="txt114">Privacy Policy</a>
+                <a href="terms-conditions/" data-translate="txt115">Terms And Conditions</a>
+                <a href="responsible-gaming/" data-translate="txt116">Responsible Gaming</a>
             </div>
-            <div class="gam" >
-                <div class="cirle" >18+</div>
-                <a href="https://www.gamcare.org.uk/" target="_blank"><img class="img18" src="img/ga-care.png" alt="img" ></a>
+            <div class="gam">
+                <div class="cirle" data-translate="txt117">18+</div>
+                <a href="https://www.gamcare.org.uk/" target="_blank"><img class="img18" src="img/ga-care.png" alt="img"></a>
             </div>
         </div>
-        <p class="warn-18">This game is for 18+ players only. Play responsibly.</p>
-        <p class="warn-states">Rummy is a game of skill and is legal under the Supreme Court of India’s ruling. No real-money gambling is involved. 
-            States where gambling is prohibited: Andhra Pradesh, Assam, Nagaland, Odisha, Sikkim, and Telangana</p>
-        <p class="footer-rights">&copy; 2025 InfinityRummyx. All rights reserved.</p>
+        <p class="warn-18" data-translate="txt118">This game is for 18+ players only. Play responsibly.</p>
+        <p class="warn-states" data-translate="txt119">Rummy is a game of skill and is legal under the Supreme Court of India's ruling...</p>
+        <p class="footer-rights" data-translate="txt120">&copy; 2025 InfinityRummyx. All rights reserved.</p>
     </footer>
 
     <div id="popup" class="popup">
         <div class="popup-content">
-            <span class="close" id="closePopupButton">&times;</span>
-            <h2>Important Notice</h2>
-            <p>Play responsibly and stay in control! Our website is only for users aged 18 and above. Enjoy the game wisely and prioritize your well-being.</p>
+            <span class="close" id="closePopupButton" data-translate="txt121">&times;</span>
+            <h2 data-translate="txt122">Important Notice</h2>
+            <p data-translate="txt123">Play responsibly and stay in control! Our website is only for users aged 18 and above...</p>
         </div>
     </div>
-
 </body>
-
 </html>

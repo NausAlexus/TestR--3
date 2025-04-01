@@ -1468,7 +1468,9 @@ textarea.form-input-context::placeholder {
 .lang-switcher {
     display: flex;
     gap: 8px;
-    margin-left: auto; /* Размещаем справа */
+    margin-right: 30px;
+    justify-content: right;
+    margin-top: 10px;
   }
   
   .lang-btn {
