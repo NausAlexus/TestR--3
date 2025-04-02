@@ -14,12 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const key = element.dataset.translate;
       element.textContent = translations[lang][key] || translations['en'][key];
     });
-
-    // Обновляем placeholder для полей ввода
-    document.querySelectorAll('[data-translate-placeholder]').forEach(input => {
-      const key = input.dataset.translatePlaceholder;
-      input.placeholder = translations[lang][key] || translations['en'][key];
-    });
     
     // Сохраняем выбор языка в localStorage
     localStorage.setItem('preferredLanguage', lang);

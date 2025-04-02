@@ -12,16 +12,52 @@
 
     <link rel="icon" href="/img/favicon.ico" />
     <link rel="stylesheet" href="/style.css" />
-
+    <script src="lang-switcher.js" defer></script>
+    <script src="translations.js" defer></script>
   </head>
   <body>
+    <header class="header">
+      <nav class="navigation">
+        <a class="header-link" href="/" data-translate="txt1">InfinityRummyx</a>
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="en" data-translate="txt2">EN</button>
+          <button class="lang-btn" data-lang="hi" data-translate="txt3">हिंदी</button>
+        </div>
+        <div class="burger-menu" id="burgerMenu">
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+        </div>
+        <ul class="nav-list" id="navList">
+          <li class="nav-item">
+            <a class="nav-link nav-link-hover" href="/" data-translate="txt4">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-hover" href="/about/" data-translate="txt5">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-hover" href="/faq/" data-translate="txt6">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-hover" href="/how-to-play/" data-translate="txt7">How to play</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-hover" href="/tournaments/" data-translate="txt8">Tournaments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-hover" href="/contacts/" data-translate="txt9">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
       <div class="thank-you-container">
-        <h1>Thank You!</h1>
-        <p>
+        <h1 data-translate="txt10">Thank You!</h1>
+        <p data-translate="txt11">
           Your message has been received. If you need further assistance, feel free to get in touch!
         </p>
-        <a href="/" class="home-button">Back to Home Page</a>
+        <a href="/" class="home-button" data-translate="txt12">Back to Home Page</a>
       </div>
     </main>
   </body>

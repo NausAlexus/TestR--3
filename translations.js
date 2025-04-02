@@ -122,7 +122,8 @@ const translations = {
         "txt120": "© 2025 InfinityRummyx. All rights reserved.",
         "txt121": "×",
         "txt122": "Important Notice",
-        "txt123": "Play responsibly and stay in control! Our website is only for users aged 18 and above. Enjoy the game wisely and prioritize your well-being."
+        "txt123": "Play responsibly and stay in control! Our website is only for users aged 18 and above. Enjoy the game wisely and prioritize your well-being.",
+        "placeholder": "Enter your phone number",
       },
     hi: 
     {
@@ -248,5 +249,7 @@ const translations = {
         "txt120": "© 2025 इन्फिनिटी रम्यक्स। सर्वाधिकार सुरक्षित।",
         "txt121": "×",
         "txt122": "महत्वपूर्ण सूचना",
-        "txt123": "जिम्मेदारी से खेलें और नियंत्रण में रहें! हमारी वेबसाइट केवल 18 वर्ष और उससे अधिक उम्र के उपयोगकर्ताओं के लिए है। बुद्धिमानी से खेलें और अपने कल्याण को प्राथमिकता दें।"
+        "txt123": "जिम्मेदारी से खेलें और नियंत्रण में रहें! हमारी वेबसाइट केवल 18 वर्ष और उससे अधिक उम्र के उपयोगकर्ताओं के लिए है। बुद्धिमानी से खेलें और अपने कल्याण को प्राथमिकता दें।",
+        "placeholder": "अपना फ़ोन नंबर डालें",
+
       }}
