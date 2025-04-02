@@ -36,11 +36,11 @@ const translations = {
         "txt34": "Policy for Fair Play",
         "txt35": "Set Personal Daily Limits",
         "txt36": "Pledge to Play",
-        "txt37": "Quick and Efficient Withdrawals",
-        "txt38": "Immediate Payment Processing",
-        "txt39": "24/7 Withdrawal Availability",
-        "txt40": "Compatible with All Major Credit Cards",
-        "txt41": "Explore Options",
+        "txt37": "Unique Gaming Features",
+        "txt38": "Experience various game modes: from classic to innovative",
+        "txt39": "User-Friendly Interface",
+        "txt40": "Easy navigation for players of all levels",
+        "txt41": "Join and Start",
         "txt42": "Exceptional Customer Support",
         "txt43": "24/7 Assistance from Our Support Team",
         "txt44": "Helpful FAQs and Resources",
@@ -124,6 +124,8 @@ const translations = {
         "txt122": "Important Notice",
         "txt123": "Play responsibly and stay in control! Our website is only for users aged 18 and above. Enjoy the game wisely and prioritize your well-being.",
         "placeholder": "Enter your phone number",
+        "agree_text": "I agree to the",
+
       },
     hi: 
     {
@@ -163,11 +165,11 @@ const translations = {
         "txt34": "समान खेल नीति",
         "txt35": "व्यक्तिगत दैनिक सीमाएँ निर्धारित करें",
         "txt36": "खेलने की शपथ लें",
-        "txt37": "त्वरित और कुशल निकासी",
-        "txt38": "तत्काल भुगतान प्रक्रिया",
-        "txt39": "24/7 निकासी उपलब्धता",
-        "txt40": "सभी प्रमुख क्रेडिट कार्ड के साथ संगत",
-        "txt41": "विकल्पों का अन्वेषण करें",
+        "txt37": "विशिष्ट गेमिंग सुविधाएँ",
+    "txt38": "विभिन्न गेम मोड का अनुभव करें: पारंपरिक से लेकर नवीनतम तक",
+    "txt39": "उपयोगकर्ता के अनुकूल इंटरफ़ेस",
+    "txt40": "सभी स्तरों के खिलाड़ियों के लिए आसान नेविगेशन",
+    "txt41": "जुड़ें और शुरुआत करें",
         "txt42": "असाधारण ग्राहक समर्थन",
         "txt43": "हमारी सहायता टीम से 24/7 सहायता",
         "txt44": "सहायक अक्सर पूछे जाने वाले प्रश्न और संसाधन",
@@ -251,5 +253,6 @@ const translations = {
         "txt122": "महत्वपूर्ण सूचना",
         "txt123": "जिम्मेदारी से खेलें और नियंत्रण में रहें! हमारी वेबसाइट केवल 18 वर्ष और उससे अधिक उम्र के उपयोगकर्ताओं के लिए है। बुद्धिमानी से खेलें और अपने कल्याण को प्राथमिकता दें।",
         "placeholder": "अपना फ़ोन नंबर डालें",
+        "agree_text": "मैं सहमत हूँ"
 
       }}

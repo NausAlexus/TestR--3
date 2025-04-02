@@ -25,7 +25,11 @@ const translations = {
       "txt23": "© 2025 InfinityRummyx. All rights reserved.",
       "txt24": "×",
       "txt25": "Important Notice",
-      "txt26": "Play responsibly and stay in control! Our website is only for users aged 18 and above. Enjoy the game wisely and prioritize your well-being."
+      "txt26": "Play responsibly and stay in control! Our website is only for users aged 18 and above. Enjoy the game wisely and prioritize your well-being.",
+      "fullNamePlaceholder": "Enter your full name",
+      "emailPlaceholder": "Enter your email address",
+      "messagePlaceholder": "Enter your message",
+      "agree_text": "I agree to the",
     },
     hi: 
     {
@@ -54,5 +58,10 @@ const translations = {
       "txt23": "© 2025 इन्फिनिटी रम्यक्स। सर्वाधिकार सुरक्षित।",
       "txt24": "×",
       "txt25": "महत्वपूर्ण सूचना",
-      "txt26": "जिम्मेदारी से खेलें और नियंत्रण में रहें! हमारी वेबसाइट केवल 18 वर्ष और उससे अधिक उम्र के उपयोगकर्ताओं के लिए है। बुद्धिमानी से खेलें और अपने कल्याण को प्राथमिकता दें।"
+      "txt26": "जिम्मेदारी से खेलें और नियंत्रण में रहें! हमारी वेबसाइट केवल 18 वर्ष और उससे अधिक उम्र के उपयोगकर्ताओं के लिए है। बुद्धिमानी से खेलें और अपने कल्याण को प्राथमिकता दें।",
+        "fullNamePlaceholder": "अपना पूरा नाम डालें",
+        "emailPlaceholder": "अपना ईमेल पता डालें",
+        "messagePlaceholder": "अपना संदेश डालें",
+        "agree_text": "मैं सहमत हूँ"
+      
     }}

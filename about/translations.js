@@ -63,7 +63,10 @@ const translations = {
       "txt61": "© 2025 InfinityRummyx. All rights reserved.",
       "txt62": "×",
       "txt63": "Important Notice",
-      "txt64": "Play responsibly and stay in control! Our website is only for users aged 18 and above. Enjoy the game wisely and prioritize your well-being."
+      "txt64": "Play responsibly and stay in control! Our website is only for users aged 18 and above. Enjoy the game wisely and prioritize your well-being.",
+      "important_text": "Rummy is a game of skill and is legal under the Supreme Court of India's ruling. No real-money gambling is involved.",
+      "restricted_text": "Our services are not available in Andhra Pradesh, Assam, Nagaland, Odisha, Sikkim, and Telangana due to state gaming laws.",
+    
     },
     hi: 
     {
@@ -130,5 +133,7 @@ const translations = {
       "txt61": "© 2025 इन्फिनिटी रम्यक्स। सर्वाधिकार सुरक्षित।",
       "txt62": "×",
       "txt63": "महत्वपूर्ण सूचना",
-      "txt64": "जिम्मेदारी से खेलें और नियंत्रण में रहें! हमारी वेबसाइट केवल 18 वर्ष और उससे अधिक उम्र के उपयोगकर्ताओं के लिए है। बुद्धिमानी से खेलें और अपने कल्याण को प्राथमिकता दें।"
+      "txt64": "जिम्मेदारी से खेलें और नियंत्रण में रहें! हमारी वेबसाइट केवल 18 वर्ष और उससे अधिक उम्र के उपयोगकर्ताओं के लिए है। बुद्धिमानी से खेलें और अपने कल्याण को प्राथमिकता दें।",
+      "important_text": "रम्मी एक कौशल का खेल है और यह भारत के सुप्रीम कोर्ट के आदेश के तहत वैध है। इसमें कोई वास्तविक पैसे का जुआ शामिल नहीं है।",
+    "restricted_text": "हमारी सेवाएँ आंध्र प्रदेश, असम, नागालैंड, ओडिशा, सिक्किम, और तेलंगाना में राज्य गेमिंग कानूनों के कारण उपलब्ध नहीं हैं।"
     }}

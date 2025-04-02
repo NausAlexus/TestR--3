@@ -1030,6 +1030,7 @@ h3.policy-subtitle, h3.terms-subtitle, h3.responsible-gaming-subtitle {
     justify-content: space-between;
 }
 
+
 .about-rummy__sidebar {
     flex: 1;
     margin-right: 20px;
@@ -1536,4 +1537,14 @@ textarea.form-input-context::placeholder {
         background-color: #8100d1;
         transform: translateY(-2px);
     }
+}
+
+@media (max-width:900px) {
+    .about-rummy__container{
+        margin-top: 60px;
+    }
+    .advantages-section{
+        margin-top: 60px;
+    }
+    
 }
